@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/segments/assign
+    body:
+      encoding: UTF-8
+      string: email=stevenbristol%40gmail.com&segments=renamed%20test%20by%20steve%20e31f1b3a-20bd-4605-9844-bab71e230212%2Crenamed%20test%20by%20steve%2096f63274-9dc3-407a-98a0-21d54bd3f590
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 06 Oct 2015 13:50:25 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6ImNVd01YNTFhc2ZUclFLdVhJcHIrK2c9PSIsInZhbHVlIjoic0VpYjZaR1dDTWFCUzQyUVdxWnhGZmF2YmtwOVRmSGxJbjNzcjVzSWlUY0E3eGNZdnV1dTZPd3o1TFNxRUZ5eEREVExQRU5KQWZNbHl2dm16eGg5Zmc9PSIsIm1hYyI6IjJlYmJhYzExYzdkOTFiODljYWQ5ZTBhZTY4MjUyYzgwMWFiN2IwMThmZmM3MTczZmU0YjA2ZjRmMjhjNjk5OTcifQ%3D%3D;
+        expires=Tue, 06-Oct-2015 15:50:25 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '58'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"message":"segments assigned to stevenbristol@gmail.com"}'
+    http_version: 
+  recorded_at: Tue, 06 Oct 2015 13:50:25 GMT
+recorded_with: VCR 2.9.3

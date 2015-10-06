@@ -3,7 +3,7 @@ class Tend::Garden
   include Tend::Util::Ht
   include Tend::Util::Util
 
-
+  attr_accessor :attributes
   def initialize attributes
     a = HashWithIndifferentAccess.new attributes
     init(a) do |att, value|
@@ -14,15 +14,16 @@ class Tend::Garden
   class << self
     def all options = {}
       response = get options
+      #return response
       response.map { |object| new(object) }
     end
 
     def find id, options = {}
-      new( get( options.merge(id: id) ) )
+      new( get( options.merge(id: id, no_pagination: true) ) )
     end
 
     def create attributes, options = {}
-      post attributes, options
+      new( post attributes, options )
     end
 
   end

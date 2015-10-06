@@ -1,13 +1,12 @@
 module Tend::Util::NoDelete
   module ClassMethods
 
-    def post *args
-      raise Tend::NotSupportedError.new("Delete method is not supported on this object.")
-    end
   end
 
   module InstanceMethods
-
+    def delete *args
+      raise Tend::NotSupportedError.new("Delete method is not supported on this object.")
+    end
   end
 
   def self.included(receiver)

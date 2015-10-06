@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/segments/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 19:21:22 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IkJRUFBZeHV3dzV2TGxyMmlWRjZaMUE9PSIsInZhbHVlIjoiXC9HUjBIQldiWDEydjFFOHl2QUNNeUFnQUFPdGptR2ZYSmYrZ3dGRFRHRTJNMExtRTRFdGVRVm9CUUVYcm9Fc0ZcL3QrSG1kckozSEpJSUNPOW1DMHlSdz09IiwibWFjIjoiZTAxMzc2MmFhMzZkNzc5MjUwZjVmZDE3ZWRmN2U2NWVjZDZkYTk5MGFhZmFlOTkyNTk2Nzc3ZTJhMTM2M2JkOSJ9;
+        expires=Mon, 05-Oct-2015 21:21:22 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":1,"name":"test by steve 2"}}'
+    http_version:
+  recorded_at: Mon, 05 Oct 2015 19:21:22 GMT
+recorded_with: VCR 2.9.3

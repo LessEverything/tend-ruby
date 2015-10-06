@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/segments/1
+    body:
+      encoding: UTF-8
+      string: name=test2
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 19:22:21 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6ImEzeFpVUFlhdk5Ta0VFXC9PeVNaejBRPT0iLCJ2YWx1ZSI6ImxyZUxCXC9VY3VPXC80SElrSzg2ZWNhOXlGSVI4d1wvN0d3dEdzNk5BSTBcL1lDZVh4eUJUc1NvWWV5SEY1MkdBdVBDRXZxWXhHOGp0Z2dmbzM2d1BxbEdhUT09IiwibWFjIjoiMGYwNDU1OWJlMWE3NTQyN2M1MjQ5ZTM4NDg1MjY4YjRjNzg4OTc2Nzk4MDliNWM0NWYyMDg5NWIxNWRiNTk5NSJ9;
+        expires=Mon, 05-Oct-2015 21:22:21 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '75'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"message":"segment successfully updated","data":{"id":1,"name":"test2"}}'
+    http_version:
+  recorded_at: Mon, 05 Oct 2015 19:22:21 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/segments
+    body:
+      encoding: UTF-8
+      string: name=test%20by%20steve%202
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Tue, 06 Oct 2015 14:03:15 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6InZ1TDF3U3kyRFh1ZDA1QjFvaXdIdVE9PSIsInZhbHVlIjoiSzlsYnhNN2Z2MlAzaHhLODJiXC9uSlVEN0lWS3NoM2hKaklQeWdQZldsSWRYb1MyVFhhVlFZMXQ0WXNIT29jODZSMnN3RjVGMVpLdHhuaUhLMmwxYmVBPT0iLCJtYWMiOiI0MGE5NmU2MGM0YTY3YTFhZDgyODM3NjgzYzQzODk0ZTNjMWE0ZTAxNDJjY2I3NzBkNDRmNjkyYzk2NDk2ZjM4In0%3D;
+        expires=Tue, 06-Oct-2015 16:03:16 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '85'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"message":"segment successfully created","data":{"id":641,"name":"test
+        by steve 2"}}'
+    http_version: 
+  recorded_at: Tue, 06 Oct 2015 14:03:16 GMT
+recorded_with: VCR 2.9.3

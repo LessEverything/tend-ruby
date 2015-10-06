@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/pages?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 14:49:50 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IlVlcXpMUDdwamErcjRVY3FSMnE1OVE9PSIsInZhbHVlIjoiQVk5bDRNRzVQMkV0cWl1d0FzMzFJSlRiUGVwZFNKemRndUNwaXNobWM0XC9TaUdUcEhJRmxWZU5JU2dZVFpNdXZzRzNFS2VobzdaOWxlZ2E2Wk9JalZ3PT0iLCJtYWMiOiJkODVlMTljNTEzNGJmYmZlYjdhMzNjYTMwYmRkYjNjNTgzNmI4NzdlYzk2YTM2ZjYyMTUwODhhZjZhN2RmNzc0In0%3D;
+        expires=Mon, 05-Oct-2015 16:49:50 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '2354'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"page":"\/url","visits":1321},{"page":"\/url","visits":350},{"page":"\/url","visits":243},{"page":"\/url","visits":238},{"page":"\/url","visits":140},{"page":"\/url","visits":125},{"page":"\/url","visits":123},{"page":"\/url","visits":114},{"page":"\/url","visits":98},{"page":"\/url","visits":64},{"page":"\/url","visits":59}],"paginator":{"total_count":170,"total_pages":4,"current_page":1,"limit":50}}'
+    http_version:
+  recorded_at: Mon, 05 Oct 2015 14:49:50 GMT
+recorded_with: VCR 2.9.3

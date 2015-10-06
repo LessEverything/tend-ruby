@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/segments/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 19:24:10 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IktuV3gzZkd4bnVDY2dqQ3dsejJUSWc9PSIsInZhbHVlIjoiZ0hSc08rV040OGE2VVc2SE9nUkVcL2c1OE52czlWU2pObzQ3MHY2YWdjNGtTbjk2bVA1TDNGTTBsUXVNaDVLbzFTbDZZcGs2YkZoa0Q5K3MzVnB4TjRRPT0iLCJtYWMiOiI0MmJjY2UzMTVhNjc4YTMyMjVjNTg2YmIxYTU2ZmI5NWNlMjU2MDY3YjJjMGE3ZWZjNjMwMzgyNTFkNGRiMjFmIn0%3D;
+        expires=Mon, 05-Oct-2015 21:24:10 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '75'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"message":"segment successfully deleted","data":{"id":1,"name":"test2"}}'
+    http_version:
+  recorded_at: Mon, 05 Oct 2015 19:24:10 GMT
+recorded_with: VCR 2.9.3

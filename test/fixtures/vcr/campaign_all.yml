@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/campaigns?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 19:52:30 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6Imt4c1ozV3p5VVRRNzVDRFRwK3RjWUE9PSIsInZhbHVlIjoia3FCdVFPUXFzQ1psRUlWUFR4NCswblVLVmNzdm5pVFVaak1oUEZlVWJ1NFNScDNPbGpoZGRqNkRuTUo3Q3VVXC9TVjBqXC9iS3VnRTlzTWtsWWN2ZGpEUT09IiwibWFjIjoiNmQwZGVlNDcxZTYyYWVkMzM1MmYwNDIxYzI4YWIzMDUxMTBmNmI5ZTdlNjNiMmY0M2UwNTE0YWFjNzNlZTlkMiJ9;
+        expires=Mon, 05-Oct-2015 21:52:30 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '6707'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":112,"domain":"http:\/\/lesschurn.io","name":"xxxxx","source":"email_sig","medium":"email","term":"","content":"","start":"","end":"","image":"","notes":""},{"id":94420,"domain":"http:\/\/lesschurn.io","name":"Daily-Hunt","source":"Learn-and-Launch_Issue-9","medium":"web","term":"","content":"","start":"","end":"","image":"","notes":""},{"id":116061,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":1,"domain":"http:\/\/lesschurn.io","name":"xxxxx","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":116063,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":116081,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":116085,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":116093,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":116107,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":116143,"domain":"http:\/\/lesschurn.io","name":"Losing
+        customers sucks","source":"LC+cold","medium":"outreach","term":"","content":"LessChurn","start":"","end":"","image":"","notes":""},{"id":116191,"domain":"http:\/\/lesschurn.io","name":"Losing
+        customers sucks","source":"LC+cold","medium":"outreach","term":"","content":"LessChurn","start":"","end":"","image":"","notes":""},{"id":116357,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":117538,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":117539,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":117648,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":118747,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":118984,"domain":"http:\/\/lesschurn.io","name":"xxxxx","source":"twitter.com","medium":"social","term":"","content":"buffer58b29","start":"","end":"","image":"","notes":""},{"id":119792,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":128233,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":133441,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":138664,"domain":"http:\/\/lesschurn.io","name":"xxxxx","source":"facebook.com","medium":"social","term":"","content":"buffer6ac56","start":"","end":"","image":"","notes":""},{"id":146253,"domain":"http:\/\/lesschurn.io","name":"xxxxx","source":"facebook","medium":"retargetingbanner","term":"","content":"videopicture","start":"","end":"","image":"","notes":""},{"id":219228,"domain":"http:\/\/lesschurn.io","name":"losing
+        customers sucks","source":"LC","medium":"outreach","term":"","content":"lesschurn","start":"","end":"","image":"","notes":""},{"id":242270,"domain":"http:\/\/lesschurn.io","name":"getting-customers-is-not-the-hardest-part-of-saas","source":"customer-retention-crash-course","medium":"drip","term":"","content":"","start":"","end":"","image":"","notes":""},{"id":268829,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":268872,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":268878,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":269066,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":269166,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":269217,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":272765,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":272813,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":272973,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""},{"id":273648,"domain":"http:\/\/lesschurn.io","name":"Losing
+        customers sucks","source":"LC+cold","medium":"outreach","term":"","content":"LessChurn","start":"","end":"","image":"","notes":""},{"id":279768,"domain":"http:\/\/lesschurn.io","name":"Churn
+        University","source":"LC","medium":"outreach","term":"","content":"Churn%20University","start":"","end":"","image":"","notes":""}]}'
+    http_version: 
+  recorded_at: Mon, 05 Oct 2015 19:52:30 GMT
+recorded_with: VCR 2.9.3

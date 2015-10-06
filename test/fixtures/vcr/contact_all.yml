@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/contacts?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 16:01:25 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IlFjaldLY1lxN0V3Z0Q4TkxXMmw5b2c9PSIsInZhbHVlIjoiTzBxMGFHcnpcLzR6T0VmQnBJNXJKT2FrWHdhUndjWW0zeWNtUDRSZzY2aCtiK3UxOWJoM3pPeU9vY0xFa1phYnB0cGtWUENaek1QZGRydnY5Q29yN1wvQT09IiwibWFjIjoiZjVkZTdhNjMwNzhlMDEwMDQ3ZjZiZjQyM2ZlY2U4NzdhMDBkZjczNWRkMTU0MmIzYTA5MmU1ZDlmMGIxNmJhMyJ9;
+        expires=Mon, 05-Oct-2015 18:01:26 GMT; Max-Age=7200; path=/; httponly
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":1,"name":"Steven Bristol","firstName":"Steven","lastName":"Bristol","email":"email@address.coom","company":"","title":"","bio":"","website":"","address":"","city":"","state":"","zip":"","country":"United
+        States","photo":"","facebook":"","twitter":"","linkedin":"","activity":{"visits":28,"pages":200},"segments":[{"id":441,"name":"All
+        Conversions"},{"id":446,"name":"Everyone"},{"id":621,"name":"Ignore"}],"referrers":[],"campaigns":[]}],"paginator":{"total_count":62,"total_pages":2,"current_page":1,"limit":50}}'
+    http_version:
+  recorded_at: Mon, 05 Oct 2015 16:01:26 GMT
+recorded_with: VCR 2.9.3

@@ -34,10 +34,12 @@ class Tend::Contact < Tend::Garden
   end
 
   def visits options = {}
+    return @visits if @visits && !options.delete(:reload)
     collection "visits", Tend::Visit, options
   end
 
   def segments options = {}
+    return @segments if @segments && !options.delete(:reload)
     collection "segments", Tend::Segment, options
   end
 

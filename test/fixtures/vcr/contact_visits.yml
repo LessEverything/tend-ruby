@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/contacts/1/visits?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 18:23:42 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IjJcLzdoVlZxZVRuZGtzbWpZT3V3UG1nPT0iLCJ2YWx1ZSI6InI2Rm9Mb1wvelZiUHpVT2tyTFV6dGhtVFEzOVwvS010S3A4ZDVkQ2JsNjBwckVxWU1EaUJLWDRDeEMyU2ptK3QzT1JkWk42ZE9KaW1PWHpvME9TZTJKQ3c9PSIsIm1hYyI6IjA4ZTAyNmQ5NDUxZGQzNWZjMjA5NjJhYzQyOWFlNDM3NTIzY2Q3YjA0MTljYTZlOGQ5NWU0ZDQwYmYxOThiZGYifQ%3D%3D;
+        expires=Mon, 05-Oct-2015 20:23:42 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '6449'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":1,"domain":"lesschurn.dev","page":"\/url","referrer":"direct","campaign":"","date":"2015-07-31
+        11:40:51"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:43:52"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:24"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:37"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:44"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:46"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:51"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-02
+        13:15:07"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-02
+        13:15:15"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        07:42:31"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        07:42:49"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        11:31:45"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        11:31:50"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        11:32:25"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        11:33:12"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        11:45:34"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        11:46:19"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        11:55:01"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        11:55:08"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:15:31"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:15:39"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:16:15"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:16:17"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:16:30"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:24:49"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:27:18"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:27:56"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:27:57"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:27:57"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:27:58"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        12:32:22"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        14:33:14"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        15:15:11"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        15:15:17"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        15:15:20"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        15:19:50"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        15:28:54"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        15:37:43"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-03
+        15:37:58"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        08:57:07"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        08:57:11"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        08:57:12"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        08:57:22"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        08:59:20"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        09:01:08"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        09:01:48"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        09:02:19"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        09:02:44"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        09:02:58"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-04
+        09:03:00"}],"paginator":{"total_count":314,"total_pages":7,"current_page":1,"limit":50}}'
+    http_version: 
+  recorded_at: Mon, 05 Oct 2015 18:23:46 GMT
+recorded_with: VCR 2.9.3

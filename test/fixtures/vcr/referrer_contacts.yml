@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/referrers/1/contacts?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 19:03:52 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IjdnTHVMSExzc3ByeGlSRGlnK2x3enc9PSIsInZhbHVlIjoiKzZOMHpCMXN5cXprdmhrNVpRMitPN3U2dmtzbDlDbllpN2hNQVlTWWhWZmRsNm1Sb3N4K3I2OTdocTlwXC9wSmFyait0bGw4c0grRlYxU2xoNUwwR3pnPT0iLCJtYWMiOiI1YWMzZWI1M2RkZjJhYTZhZDc3MWQwMTNlYTlkN2FiNjIyZTcyNjEyZTQ4NTgwYTIzZmE3YTZlZTU1MWQ5OGNjIn0%3D;
+        expires=Mon, 05-Oct-2015 21:03:52 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '11'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"data":[]}'
+    http_version:
+  recorded_at: Mon, 05 Oct 2015 19:03:55 GMT
+recorded_with: VCR 2.9.3

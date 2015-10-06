@@ -5,7 +5,7 @@ class Tend::Referrer < Tend::Garden
   include Tend::Util::NoDelete
 
   ATTRIBUTES = [:id, :name]
-  attr_accessor :attributes, *ATTRIBUTES
+  attr_accessor *ATTRIBUTES
 
 
   def visits options = {}

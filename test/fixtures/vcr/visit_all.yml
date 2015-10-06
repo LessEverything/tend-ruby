@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/visits?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 14:33:23 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IkVDeXNxQVRHTmtReWFqQWVhSTAxamc9PSIsInZhbHVlIjoiTFE2ektXYUxpekVlTWxWdDM0ck5MYUpJQ1pXMmhCTmQzd2dtdmprOWJYMnEzVTlXeG1WclF2QWFJV1ordFJrNTZRYTdzdlhxZndFbjY3WkN0RmZKckE9PSIsIm1hYyI6Ijk1YTA1MzNmNDU5YTlhNGYwNDdlZTZmZDg0ZDNkYWM3Y2U3MTMxYmM3YjQ0MjhjMGJmZjhjYjdlZjdjNDc4NzUifQ%3D%3D;
+        expires=Mon, 05-Oct-2015 16:33:24 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '6420'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":1,"domain":"lesschurn.dev","page":"\/url","referrer":"direct","campaign":"","date":"2015-07-31
+        11:40:51"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:43:52"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:24"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:37"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:44"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:46"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        11:45:51"},{"id":"1702994","domain":"lesschurn.io","page":"\/url","referrer":"google.co.uk","campaign":"","date":"2015-07-31
+        12:55:48"},{"id":"1703528","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-07-31
+        13:47:18"},{"id":"1704104","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-07-31
+        14:38:31"},{"id":"1704112","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-07-31
+        14:39:18"},{"id":"1703528","domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-07-31
+        14:57:51"},{"id":"1705350","domain":"lesschurn.io","page":"\/url","referrer":"t.co\/Urz9nmofz1","campaign":"","date":"2015-07-31
+        16:32:36"},{"id":"1706533","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-07-31
+        18:57:20"},{"id":"1705350","domain":"lesschurn.io","page":"\/url","referrer":"t.co\/Urz9nmofz1","campaign":"","date":"2015-08-01
+        04:09:20"},{"id":"1710227","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        07:35:55"},{"id":"1705350","domain":"lesschurn.io","page":"\/url","referrer":"t.co\/Urz9nmofz1","campaign":"","date":"2015-08-01
+        08:19:04"},{"id":"1711794","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-01
+        11:34:11"},{"id":"1712583","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        13:20:55"},{"id":"1712583","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        13:21:06"},{"id":"1712761","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-01
+        13:48:08"},{"id":"1712993","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-01
+        14:24:43"},{"id":"1713341","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-01
+        15:33:45"},{"id":"1713511","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        16:03:47"},{"id":"1710227","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        19:07:48"},{"id":"1714585","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        19:29:25"},{"id":"1714585","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        19:29:36"},{"id":"1714901","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-01
+        20:33:15"},{"id":"1714901","domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-01
+        20:35:25"},{"id":"1715044","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        21:06:52"},{"id":"1715044","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        21:07:14"},{"id":"1715055","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-01
+        21:08:12"},{"id":"1715044","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-01
+        21:09:38"},{"id":"1703528","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-01
+        21:12:43"},{"id":"1715970","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-02
+        00:30:17"},{"id":"1717935","domain":"lesschurn.io","page":"\/url","referrer":"producthunt.com\/tech\/lesschurn","campaign":"","date":"2015-08-02
+        09:03:40"},{"id":"1717935","domain":"lesschurn.io","page":"\/url","referrer":"producthunt.com\/tech\/lesschurn","campaign":"","date":"2015-08-02
+        09:03:50"},{"id":"1718273","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-02
+        09:48:23"},{"id":"1718273","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-02
+        09:57:23"},{"id":"1718273","domain":"lesschurn.io","page":"\/url","referrer":"stripe.com\/docs\/integrations","campaign":"","date":"2015-08-02
+        09:57:28"},{"id":"1718861","domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-02
+        11:16:37"},{"id":"1718861","domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-02
+        11:29:41"},{"id":"1718861","domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-02
+        11:31:07"},{"id":"1719001","domain":"lesschurn.io","page":"\/url","referrer":"google.com","campaign":"","date":"2015-08-02
+        11:35:20"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-02
+        13:15:07"},{"id":1,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-02
+        13:15:15"},{"id":85328,"domain":"lesschurn.io","page":"\/url","referrer":"direct","campaign":"","date":"2015-08-02
+        14:49:55"},{"id":85328,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-02
+        14:52:05"},{"id":85328,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-02
+        14:52:09"},{"id":85328,"domain":"lesschurn.io","page":"\/url","referrer":"","campaign":"","date":"2015-08-02
+        14:52:10"}],"paginator":{"total_count":4068,"total_pages":82,"current_page":1,"limit":50}}'
+    http_version: 
+  recorded_at: Mon, 05 Oct 2015 14:33:24 GMT
+recorded_with: VCR 2.9.3

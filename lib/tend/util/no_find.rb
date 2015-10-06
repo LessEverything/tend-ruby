@@ -1,12 +1,13 @@
-module Tend::Util::NoUpdate
+module Tend::Util::NoFind
   module ClassMethods
 
+    def find *args
+      raise Tend::NotSupportedError.new("Find method is not supported on this object.")
+    end
   end
 
   module InstanceMethods
-    def update *args
-      raise Tend::NotSupportedError.new("Update method is not supported on this object.")
-    end
+
   end
 
   def self.included(receiver)

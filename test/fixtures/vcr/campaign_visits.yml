@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://stevenbristol%40gmail.com:NqNo3bwWZu@tend.io/api/v1/campaigns/1/visits?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2015 19:52:30 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - laravel_session=eyJpdiI6Imhna0N2R1dWZVwvZjRPTE9JWHJOVlwvZz09IiwidmFsdWUiOiJKa1RnUEFjbGtsYkVudWNzdkp1OCt3ZjBBQnFRUmtLZ2dvbCt2c0ZZODBDSTI5dkVEXC9aUXdaUHRWbTNGYTZrUWhLY085d2M1dlUxc25ESUpHMmQ3WVE9PSIsIm1hYyI6IjQyZjJjM2QyYWRiZjIyNzY0NmQ5NTU4MmYwZWVlYTNmZTJjZDI0N2Y2YTg4MDk4MWRhMjg5NjczMWEzYWQ3YWEifQ%3D%3D;
+        expires=Mon, 05-Oct-2015 21:52:30 GMT; Max-Age=7200; path=/; httponly
+      Content-Length:
+      - '205'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"11","domain":"lesschurn.io","page":"\/url","referrer":"LC","campaign":"test2","date":"2015-08-27
+        18:01:18"}],"paginator":{"total_count":1,"total_pages":1,"current_page":1,"limit":50}}'
+    http_version: 
+  recorded_at: Mon, 05 Oct 2015 19:52:30 GMT
+recorded_with: VCR 2.9.3

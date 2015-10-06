@@ -1,0 +1,21 @@
+{
+  "create":{"id":641,"name":"test by steve 2"},
+
+  "detach_as_array":{"message":"segments removed from stevenbristol@gmail.com"},
+  "detach_as_strings":{"message":"segments removed from stevenbristol@gmail.com"},
+  "detach_one_array":{"message":"segment removed from stevenbristol@gmail.com"},
+  "detach_one_string":{"message":"segment removed from stevenbristol@gmail.com"},
+
+  "assign_as_array":{"message":"segments assigned to stevenbristol@gmail.com"},
+  "assign_as_strings":{"message":"segments assigned to stevenbristol@gmail.com"},
+  "assign_one_array":{"message":"segment assigned to stevenbristol@gmail.com"},
+  "assign_one_string":{"message":"segment assigned to stevenbristol@gmail.com"},
+
+  "delete": {"id":1,"name":"test2"},
+
+  "update":{"id":1,"name":"test2"},
+
+  "find":{"id":1,"name":"test by steve 2"},
+
+  "all":[{"id":2,"name":"All Conversions"},{"id":3,"name":"Everyone"},{"id":4,"name":"Ignore"},{"id":5,"name":"renamed test by steve e31f1b3a-20bd-4605-9844-bab71e230212"},{"id":6,"name":"renamed test by steve 96f63274-9dc3-407a-98a0-21d54bd3f590"},{"id":7,"name":"renamed test by steve ac042951-c374-4f7f-85f2-ec03992f8263"},{"id":1,"name":"test by steve 2"}]
+}
