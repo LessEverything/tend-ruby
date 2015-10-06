@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["stevenbristol@gmail.com"]
   spec.summary       = "Ruby version of Tend.io API"
   spec.description   = "Ruby version of Tend.io API"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/LessEverything/tend-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
