@@ -6,7 +6,7 @@ Ruby wrapper of Tend.io API
 
 Add this line to your application's Gemfile:
 
-    gem 'tend-ruby'
+    gem 'tend-ruby', require: "tend"
 
 And then execute:
 
@@ -27,7 +27,7 @@ Tend.password = "sdnf9283*hwer"
 
 * View all contacts
 
-  $Tend::Contact.all
+  Tend::Contact.all
 
 
 ## Contributing
