@@ -3,6 +3,13 @@
 module Tend::Util::Util
   module ClassMethods
 
+    def fill_collection response, cla
+      collection = Tend::Collection.new
+      collection.init response[:paginator]
+      response[:data].each { |object| collection << cla.new(object) }
+      collection
+    end
+
     private
     def extract_options options = {}
       o = OpenStruct.new({

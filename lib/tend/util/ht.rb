@@ -20,8 +20,10 @@ module Tend::Util::Ht
     def handle_response response
       case response.code
       when 200..299
-        #p response
-        response.parsed_response["data"] || response.parsed_response["message"]
+        data = response.parsed_response["data"]
+        message = response.parsed_response["message"]
+        paginator = response.parsed_response["paginator"]
+        {data: data, message: message, paginator: paginator}
       when 422
         HashWithIndifferentAccess.new response.parsed_response
       else
@@ -35,13 +37,13 @@ module Tend::Util::Ht
 
     def delete options = {}
       o = extract_options options.merge(id: id, no_pagination: true)
-      initialize self.class.send( :handle_response, HTTParty.delete( uri(o), :basic_auth => o.auth ) )
+      initialize self.class.send( :handle_response, HTTParty.delete( uri(o), :basic_auth => o.auth ) )[:data]
       self
     end
 
     def update attributes, options = {}
       o = extract_options options.merge(id: id, no_pagination: true)
-      initialize self.class.send( :handle_response, HTTParty.put( uri(o), body: attributes, :basic_auth => o.auth ) )
+      initialize self.class.send( :handle_response, HTTParty.put( uri(o), body: attributes, :basic_auth => o.auth ) )[:data]
       self
     end
 

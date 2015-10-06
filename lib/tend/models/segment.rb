@@ -16,7 +16,7 @@ class Tend::Segment < Tend::Garden
 
   def self.call_remote_method remote_method, email, segments = [], options = {}
     segs = segments.split(",").join(",")
-    post( {email: email, segments: segs}, options.merge(collection: remote_method, no_pagination: true))
+    post( {email: email, segments: segs}, options.merge(collection: remote_method, no_pagination: true))[:message]
   end
 
 

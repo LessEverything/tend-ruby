@@ -14,16 +14,15 @@ class Tend::Garden
   class << self
     def all options = {}
       response = get options
-      #return response
-      response.map { |object| new(object) }
+      fill_collection response, self
     end
 
     def find id, options = {}
-      new( get( options.merge(id: id, no_pagination: true) ) )
+      new( get( options.merge(id: id, no_pagination: true) )[:data] )
     end
 
     def create attributes, options = {}
-      new( post attributes, options )
+      new( post( attributes, options)[:data] )
     end
 
   end
@@ -40,11 +39,7 @@ class Tend::Garden
 
  def collection name, cla, options = {}
     response = get options.merge(collection: name, id: id)
-    a = []
-    response.each do |h|
-      a << cla.new(h)
-    end
-    a
+    self.class.fill_collection response, cla
  end
 
 end
