@@ -1,5 +1,7 @@
 # Tend-Ruby
 
+[![Build Status](https://travis-ci.org/LessEverything/tend-ruby.svg?branch=master)](https://travis-ci.org/LessEverything/tend-ruby)
+
 Ruby wrapper of Tend.io API
 
 ## Installation
